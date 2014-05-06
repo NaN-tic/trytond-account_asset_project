@@ -1,0 +1,55 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.asset,project:"
+msgid "Project"
+msgstr "Proyecto"
+
+msgctxt "field:account.asset.project,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:account.asset.project,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:account.asset.project,description:"
+msgid "Description"
+msgstr "Descripción"
+
+msgctxt "field:account.asset.project,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:account.asset.project,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:account.asset.project,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:account.asset.project,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:account.asset.project,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "model:account.asset.project,name:"
+msgid "Asset Project"
+msgstr "Proyecto de inversión"
+
+msgctxt "model:ir.action,name:act_account_asset_project"
+msgid "Asset Project"
+msgstr "Proyecto de inversión"
+
+msgctxt "model:ir.ui.menu,name:menu_account_asset_project"
+msgid "Asset Projects"
+msgstr "Proyectos de inversión"
+
+msgctxt "view:account.asset.project:"
+msgid "Asset Project"
+msgstr "Proyecto de inversión"

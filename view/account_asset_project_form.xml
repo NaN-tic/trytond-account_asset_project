@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Asset Project" col="2">
+    <label name="name"/>
+    <field name="name"/>
+    <newline/>
+    <separator name="description" colspan="2"/>
+    <field name="description" colspan="2"/>
+</form>
