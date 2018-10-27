@@ -4,7 +4,6 @@ from trytond.model import ModelSQL, ModelView, fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Project', 'Asset']
-__metaclass__ = PoolMeta
 
 
 class Project(ModelSQL, ModelView):
@@ -15,7 +14,7 @@ class Project(ModelSQL, ModelView):
     description = fields.Text('Description')
 
 
-class Asset:
+class Asset(metaclass=PoolMeta):
     'Asset'
     __name__ = 'account.asset'
     project = fields.Many2One('account.asset.project', 'Project')
