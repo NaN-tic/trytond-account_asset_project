@@ -2,6 +2,7 @@
 # repository contains the full copyright notices and license terms.
 from trytond.model import ModelSQL, ModelView, fields
 from trytond.pool import PoolMeta
+from trytond.pyson import Eval
 
 __all__ = ['Project', 'Asset']
 
@@ -18,3 +19,9 @@ class Asset(metaclass=PoolMeta):
     'Asset'
     __name__ = 'account.asset'
     project = fields.Many2One('account.asset.project', 'Project')
+
+    @classmethod
+    def __setup__(cls):
+        super().__setup__()
+        cls.account_journal.context = {'company': Eval('company')}
+        cls.account_journal.depends.append('company')
